@@ -3,7 +3,7 @@ package exercicio01;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class NumeroPrimo {
+  /*public class NumeroPrimo {
 
     /**
      * Retorna um conjunto contendo os números primos contidos num conjunto de inteiros passado no parâmetro,
@@ -18,9 +18,15 @@ public class NumeroPrimo {
      * @param numeros Conjunto de inteiros
      * @return Set<Integer>
      */
-    public Set<Integer> getNumerosPrimosDe(Set<Integer> numeros) {
+  /*public Set<Integer> getNumerosPrimosDe(Set<Integer> numeros) {
+        for (Integer primo: numeros) {
+            if(primo){
+
+            }
+            System.out.println(primo);
+        }
         // TODO: implemente o código deste método
         return null;
     }
 
-}
+}*/

@@ -25,9 +25,17 @@ public class Exercicio02 {
         System.out.println("O valor do orçamento anual do departamento 1986 da empresa é: "+calculaOrcamentoAnual(funcionarios));
 
     }
-
+    //5 - Implementar o método private static double calculaOrcamentoAnual(List funcionarios),
+    // que está declarado na classe Exercicio02.
+    //
+    //O método deve retornar o valor da soma dos salários anuais de todos os funcionários contidos na lista passada como parâmetro.
     private static double calculaOrcamentoAnual(List<Funcionario> funcionarios) {
+        double soma=0;
+
         // TODO: implemente o código deste método
-        return 0.0;
+        for(Funcionario i : funcionarios){
+            soma+=i.getSalarioMensal();
+        }
+        return soma;
     }
 }

@@ -20,6 +20,16 @@ public class Fibonacci {
      * @return int[]
      */
     public int[] getSequenciaFibonacciDe(int tamanho) {
+        int aux1=1;
+        int aux2=0;
+        int soma;
+
+        for(int i=1; i<=tamanho;i++){
+           soma=aux1+aux2;
+           aux2=aux1;
+           aux1=soma;
+            System.out.println(soma);
+        }
         // TODO: implemente o código deste método
         return null;
     }

@@ -11,12 +11,14 @@ public class Exercicio01 {
 
         int[] fibonacci = new Fibonacci().getSequenciaFibonacciDe(tamanho);
 
-        Set<Integer> primos = new NumeroPrimo().getNumerosPrimosDe(getSetDe(fibonacci));
+       // Set<Integer> primos = new NumeroPrimo().getNumerosPrimosDe(getSetDe(fibonacci));
 
-        System.out.println("Os numeros primos da sequencia Fibonacci de "+tamanho+" sao:");
+       /* System.out.println("Os numeros primos da sequencia Fibonacci de "+tamanho+" sao:");
         for (Integer primo: primos) {
             System.out.println(primo);
-        }
+        }*/
+
+
 
     }
 
@@ -27,6 +29,9 @@ public class Exercicio01 {
      * @return Set<Integer>
      */
     private static Set<Integer> getSetDe(int[] numeros) {
+       /* for(Integer numero : numeros){
+            System.out.println(numero);
+        }*/
         // TODO: implemente o código deste método
         return null;
     }
